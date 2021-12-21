@@ -1,0 +1,43 @@
+rutas 
+api/v1/user/task/login
+api/v1/user/task/logout
+api/v1/user/task/create_new_user 
+api/v1/tasks/get_all
+api/v1/task/get_by_priority/<priority>
+api/v1/task/create
+api/v1/task/update/<id>
+api/v1/task/delete/<id>
+
+app funcionalidades
+usuario - login
+correo 
+contraseña 
+
+usuario - registro
+id_user
+nombre 
+apellido 
+correo 
+contraseña 
+
+task 
+crear tareas = id_task, titulo, descripción, fecha inicio - fecha fin, hora, prioridad [alta, media, baja]
+mostrar tareas = nombre de usuario, numero de tareas pendientes, tareas creadas
+editar tarea = titulo, descripción, fecha inicio - fecha fin, hora,  prioridad [alta, media, baja]
+borrar tarea = id_task
+filtrar tareas por prioridad 
+notificacion push que indiquen las tareas que estan cerca de terminar
+
+python librerías 
+hashlib
+flask
+flask-login
+flask-notification
+flask_mysqldb
+mysql-connector-python
+
+db version 
+mysql 8.0
+
+
+
